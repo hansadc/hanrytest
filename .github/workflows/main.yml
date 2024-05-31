@@ -17,5 +17,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: henrytest.zzz.com.ua
-        username: thesnikk
+        username: henrytest
         password: ${{ secrets.FTPPW }}
