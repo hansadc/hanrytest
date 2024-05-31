@@ -8,9 +8,13 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
 
-      - name: 🚚 Install Composer Dependencies SITE working-directory: ./ run: composer install --prefer-dist 
+      - name: 🚚 Install Composer Dependencies SITE 
+        working-directory: ./ 
+        run: composer install --prefer-dist 
       
-      - name: 🚚 Install Composer Dependencies ADM working-directory: ./public/adm run: composer install --prefer-dist
+      - name: 🚚 Install Composer Dependencies ADM 
+        working-directory: ./public/adm 
+        run: composer install --prefer-dist
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
