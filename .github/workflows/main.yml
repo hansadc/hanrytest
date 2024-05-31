@@ -21,7 +21,7 @@ jobs:
         run: composer install --prefer-dist
 
       - name: 📂 Sync files
-        uses: ./
+        uses: ./henrytest.zzz.com.ua/
         with:
           server: henrytest.zzz.com.ua
           username: henrytest
