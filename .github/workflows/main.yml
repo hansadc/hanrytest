@@ -1,5 +1,4 @@
 on: push
-
 name: FTP Test
 jobs:
   deploy:
