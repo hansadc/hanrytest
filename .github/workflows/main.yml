@@ -1,9 +1,6 @@
+on: push
+
 name: FTP Test
-
-on:
-  push:
-    branches: [master]
-
 jobs:
   deploy:
     name: 🚀 Deploy website every commit
